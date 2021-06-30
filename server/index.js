@@ -59,7 +59,7 @@ app.get('/api/product/:id/', async (req, res) => {
 });
 
 
-//more like this routes
+//more like this routes 52.53.224.255
 app.get('/moreLikeThisBundle/bundle.js', async (req, res) => {
   try {
     var {data} = await axios.get('http://54.193.16.203:4022/bundle.js')
